@@ -1,0 +1,55 @@
+import FreeCAD
+
+class SpreadsheetObserver_text_height:
+	def __init__(self):
+		self.Proxy = self
+
+		spreadsheet = FreeCAD.ActiveDocument.getObject("Spreadsheet")
+		if spreadsheet:
+			FreeCAD.addDocumentObserver(self)
+			print("Document observer attached.")
+		else:
+			print("No spreadsheet found.")
+		print("init")
+
+	def onChanged(self, obj, prop):
+		print(obj.Name)
+		if obj.Name == "Spreadsheet" and prop == "Alias":
+			try:
+				if prop == "Alias":
+					print("An alias was modified.")
+				elif prop == "Cells":
+					print("Cell content was modified.")
+				elif prop == "Label":
+					print("Spreadsheet label was changed.")
+				else:
+					print(prop)
+	
+				# Get the text string using the alias
+				text_string = obj.getAlias("text")
+				print(text_string)
+	
+				# Calculate the character count
+				char_count = len(text_string) if text_string else 0
+	            
+				# Update the cell using the alias
+				obj.setAlias("CharCount", str(char_count))
+	            
+				# Recompute the document
+				FreeCAD.ActiveDocument.recompute()
+			except Exception as e:
+				print(f"Error processing alias: {e}")
+	
+	def execute(self, obj):
+		pass
+
+
+def createObserverFeature_text_height():
+	# Create a custom Python feature to embed the observer
+	obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "SpreadsheetObserver_text_height_observer")
+	SpreadsheetObserver_text_height()
+	return obj
+
+
+# Call this function to add the observer
+createObserverFeature_text_height()
