@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnProject AppVersion="1.7.04" DeviceName="GRBL" FormatVersion="1" MaterialHeight="0" MirrorX="False" MirrorY="False">
+    <Thumbnail Source="iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAACXBIWXMAAAsTAAALEwEAmpwYAAAHqElEQVR4nO3Y32vW9R/G8deWTGEti+E6SYVIo1+WZlbq3EzwxI46zP4DJTroIDzs2E4KyuM6EoQ8CURMnUtdzUSsCXofOREV0XJsDEP9fA+kP+DtSfC9Ho/z6+a+t9fnyc3d13VdV0Ck/v/6DQD/HQGAYAIAwQQAggkABBMACCYAEEwAIJgAQDABgGACAMEEAIIJAAQTAAgmABBMACCYAEAwAYBgAgDBBACCCQAEEwAIJgAQTAAgmABAMAGAYAIAwQQAggkABBMACCYAEEwAIJgAQDABgGACAMEEAIIJAAQTAAgmABBMACCYAEAwAYBgAgDBBACCCQAEEwAIJgAQTAAgmABAMAGAYAIAwQQAggkABBMACCYAEEwAIJgAQDABgGACAMEEAIIJAAQTAAgmABBMACCYAEAwAYBgAgDBBACCCQAEEwAIJgAQTAAgmABAMAGAYAIAwQQAggkABBMACCYAEEwAIJgAQDABgGACAMEEAIItOXz4cO3du7fWrFnTNLx7927NzMzU6Oho025xcbGmp6dr27ZtTbuqqomJiRodHa3+/rZunTp1qtavX19DQ0NNu8nJyXr55ZdrZGSkaXf69OlauXJlrVq1qmk3NTVVw8PDzf+L6enpGhwcrFdffbVpd+HChaqqeuutt5p2MzMztbi4WBs3bmza9Xq9unPnTr333ntNu6tXr9b169dr8+bNTbtbt25Vr9errVu3Nu3m5ubqwoULzTf68OHD+uWXX2psbKxpV/X4tt9///0aGBho2k1OTtYbb7xRzz77bNOu1+vVgQMHqu/IkSPd559/Xt98803TC/z222+1b9++OnbsWNPuxo0btXv37jp+/HjTrqpq+/btdeTIkVq6dGnTbseOHXXgwIHmB2vnzp31xRdf1AcffNC027VrV3388ce1e/fupt1HH31U27Ztq88++6xp98knn9SLL75YX375ZdNuz5491XVdffvtt027ffv21bVr1+qHH35o2n311Vd19uzZOnToUNPu+++/r4MHD9ZPP/3UtDt69Gjt37+/jh492rS7dOlS7d27t/lGFxYW6sMPP6wTJ0407aoe3/ahQ4dqeHi4abdjx47av39/rV+/vmm3Z8+e+vrrr2vJ008/XcuXL6/x8fGmF+i6rvr7+5t3165dq6pq3v1rbGysli1b1rx79913a926dU2bp556qjZs2ND8XgcGBuq1115r3g0ODtZLL73UvFu+fHm98MILzbuRkZHquq55t3Llypqfn2/eHT58uC5evNi8O3fuXC1btqx5d/v27VqyZEnzbmho6Ilue25urqqe7Lb7+vpq69at9fzzzzft+vv765133mn+lvPMM8/U4OCg3wAgmQBAMAGAYAIAwQQAggkABBMACCYAEEwAIJgAQDABgGACAMEEAIIJAAQTAAgmABBMACCYAEAwAYBgAgDBBACCCQAEEwAIJgAQTAAgmABAMAGAYAIAwQQAggkABBMACCYAEEwAIJgAQDABgGACAMEEAIIJAAQTAAgmABBMACCYAEAwAYBgAgDBBACCCQAEEwAIJgAQTAAgmABAMAGAYAIAwQQAggkABBMACCYAEEwAIJgAQDABgGACAMEEAIIJAAQTAAgmABBMACCYAEAwAYBgAgDBBACCCQAEEwAIJgAQTAAgmABAMAGAYAIAwQQAggkABBMACCYAEEwAINiS+fn5+vvvv+vnn39uGk5PT9ejR4+adzdv3qyu65p3/zp+/HgtXbq0adN1XZ05c6Zu377dtHvw4EGdO3euhoaGmnb//PNP/fnnn82fcWFhoXq9XvPu3r17NTs727y7detWVVXzbnZ2tv7666/mXa/Xq/n5+ebdzMxM3b9/v3n3+++/14MHD5p3ly5deqIbXVhYqKr2v2fV4xudmJio4eHhpt2jR49qamqq7t+/37S7d+9eLSwsVN+PP/7Yffrpp7V27dqmF7h7925dvHixxsfHm3aLi4s1NTVV27dvb9pVPX74x8fHq7+/7YvLyZMn6+23325+kCcmJuqVV16pkZGRpt3k5GStXr26Vq1a1bQ7c+ZMrVixotasWdO0+/XXX2twcLBef/31pt358+erqmrDhg1Nuz/++KMWFxdr06ZNTbvLly/XnTt3avPmzU27q1ev1uzsbI2Ojjbtbt68WZcvX66xsbGm3dzcXJ0/f775th8+fFinTp16ots+ceJEbdmypQYGBpp2J0+erDfffLOee+65pt2VK1fqu+++q76u67qmJfB/w28AEEwAIJgAQDABgGACAMEEAIIJAAQTAAgmABBMACCYAEAwAYBgAgDBBACCCQAEEwAIJgAQTAAgmABAMAGAYAIAwQQAggkABBMACCYAEEwAIJgAQDABgGACAMEEAIIJAAQTAAgmABBMACCYAEAwAYBgAgDBBACCCQAEEwAIJgAQTAAgmABAMAGAYAIAwQQAggkABBMACCYAEEwAIJgAQDABgGACAMEEAIIJAAQTAAgmABBMACCYAEAwAYBgAgDBBACCCQAEEwAIJgAQTAAgmABAMAGAYAIAwQQAggkABBMACCYAEEwAIJgAQDABgGACAMEEAIIJAAQTAAgmABBMACCYAEAwAYBg/wMl/rT3laYGLwAAAABJRU5ErkJggg=="/>
+    <VariableText>
+        <Start Value="0"/>
+        <End Value="999"/>
+        <Current Value="0"/>
+        <Increment Value="1"/>
+        <AutoAdvance Value="0"/>
+    </VariableText>
+    <UIPrefs>
+        <Optimize_ByLayer Value="0"/>
+        <Optimize_ByGroup Value="-1"/>
+        <Optimize_ByPriority Value="1"/>
+        <Optimize_WhichDirection Value="0"/>
+        <Optimize_InnerToOuter Value="1"/>
+        <Optimize_ByDirection Value="0"/>
+        <Optimize_ReduceTravel Value="1"/>
+        <Optimize_HideBacklash Value="0"/>
+        <Optimize_ReduceDirChanges Value="0"/>
+        <Optimize_ChooseCorners Value="0"/>
+        <Optimize_AllowReverse Value="1"/>
+        <Optimize_RemoveOverlaps Value="0"/>
+        <Optimize_OptimalEntryPoint Value="0"/>
+        <Optimize_OverlapDist Value="0.025"/>
+    </UIPrefs>
+    <CutSetting type="Cut">
+        <index Value="0"/>
+        <name Value="C00"/>
+        <maxPower Value="100"/>
+        <maxPower2 Value="20"/>
+        <speed Value="60"/>
+        <priority Value="0"/>
+        <tabCount Value="1"/>
+        <tabCountMax Value="1"/>
+    </CutSetting>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 7.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 12.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 17.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 22.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 27.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 32.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 37.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 42.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 47.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 52.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 57.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 62.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 67.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 72.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 77.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 82.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 87.5 18</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="0" W="5" H="30.000002" Cr="0">
+        <XForm>1 0 0 1 92.5 18</XForm>
+    </Shape>
+    <Notes ShowOnLoad="0" Notes=""/>
+</LightBurnProject>
